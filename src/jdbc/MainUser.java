@@ -22,10 +22,11 @@ public class MainUser {
 		//dao.updateRecord(105,"Suson", "suson@gmail.com");
 		
 //		2.print name of all users whose id>102
-		//dao.fetchRecord(102);
+		dao.fetchRecord(102);
 		
 //		3.delete all users whose name is "Suson"
 		dao.deleteRecord("Suson");
+		System.out.println("Hello my name is Suson Shrestha");
 
 	}
 
